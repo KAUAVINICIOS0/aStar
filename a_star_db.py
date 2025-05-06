@@ -1,7 +1,5 @@
 """
-Gabriel Augusto Costeira da Silva Gonçalves RA:G766857
-Kauã Vinícios Cruz Bezerra - G76JGG4
-Marina da Silva Arruda de Moraes - F3573I8
+
 """
 
 
@@ -15,10 +13,7 @@ METHOD FOR CONNECT TO DATABASE
 def get_connection():
     try:
         connection = pymysql.connect(
-            host="localhost",
-            user="Astar",
-            password="Astar",
-            database="db_AStar"
+            
         )
         return connection
     except Error as err:
